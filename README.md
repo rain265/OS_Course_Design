@@ -1,7 +1,8 @@
 OS_Course_Design (操作系统课程设计)
 所有模块均在Ubuntu Linux环境下使用C语言开发，涵盖了操作系统中最核心的四大管理机制：处理器调度、内存管理、进程同步以及文件系统模拟。
 
-项目目录结构说明
+项目目录结构说明：
+```text
 OS_Course_Design/
 ├── 1_Processor_Scheduling/       # 第一部分：处理器调度模块
 │   ├── scheduler.c               # 进程调度算法源码 (FCFS/SJF/RR/HRRN/HPF)
