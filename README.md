@@ -50,16 +50,15 @@ OS_Course_Design/
 如何运行本项目
 在本地 Ubuntu 环境下，你可以进入任意一个实验子目录进行编译和运行：
 
-Bash
-# 以第四部分文件系统为例：
+以第四部分文件系统为例：
 cd ~/OS_Course_Design/4_File_System
-# 1. 编译源码
+1. 编译源码
 gcc file_system.c -o file_system
-# 2. 运行程序
+2. 运行程序
 ./file_system
 (注：第3部分进程同步模块由于使用了多线程，编译时请记得添加 -pthread 参数：gcc sync_system.c -o sync_system -pthread)
 
-👨‍💻 开发环境
+开发环境
 OS: Ubuntu Linux (VMware Virtual Platform)
 Compiler: gcc (Ubuntu 11.x 或更高版本)
 Version Control: Git / GitHub
